@@ -1,0 +1,150 @@
+/* The Modal (background) */
+.modal {
+/*  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width:100%; /* Full width */
+  height:100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+ 
+
+}
+
+.sub {
+font-family:  Arial,  sans-serif;
+font-size: 15px;
+
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: white;
+  margin: auto auto; /* 15% from the top and centered */
+  text-align: center;
+  padding: 10px;
+  border: 10px solid #888;
+  width: 65%; /* Could be more or less, depending on screen size */
+  height: 90%;  
+}
+
+h1 { text-align: center }
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+.image-wrapper {
+  display:inline-block;
+  justify-content: center;
+text-align: center;
+width: 720px;
+height: 340px;
+align-content: center;
+
+ padding: 10px; padding-left: 5px; padding-top: 12px
+ /* padding-left: 50px; padding-right:50px; */
+
+
+}
+
+.image-wrapper2 {
+    display:block;
+    text-align: center;
+    margin: auto auto;
+    
+}
+
+.image{
+
+align-content: center;
+}
+
+.getOrigImg {
+       float:left;
+       margin-left: 20px;
+        height: 324px;
+       width: 340px;
+    border: 1px solid #888;
+    
+}
+
+.getWmLogo {
+ margin: auto auto;
+    float:left;
+    height: 324px;
+   width: 340px;
+ border: 1px solid #888;
+}
+
+.getWmLogo2 {
+     height: 324px;
+   width: 340px;
+ border: 1px solid #888;
+}
+
+.embed {
+    height: 50px;
+    width: 170px;
+
+  position: absolute;
+  bottom: 70px;
+  right: 270px;
+  font-size: 16px;
+
+}
+
+.processBtn {
+    height: 60px;
+    width: 260px;
+  bottom: 70px;
+  right: 270px;
+  font-size: 20px;
+  border-radius: 5;
+  margin: auto auto;
+  margin-top: 100px;
+ 
+}
+
+.embedding {
+    margin: auto auto;
+
+}
+
+.logo {
+ margin: auto auto;
+    float:left;
+    height: 324px;
+   width: 340px;
+ border: 1px solid #888;
+}
+
+.wmImg {
+         margin: auto auto;
+        height: 324px;
+        width: 340px;
+        border: 1px solid #888;
+}
+
+
+
+.browseTxt {
+    text-align: left;
+    margin-left: 130px;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+
+}

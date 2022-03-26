@@ -1,0 +1,403 @@
+.cover-photo{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.content-section{
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.rounded-circle account-img{  /* ACCOUNT IMAGE */
+  position: absolute;
+  position: center;
+  margin-top: 105px;
+}
+
+/* PORTFOLIO PART */
+
+.upload-box{
+  padding: 5px;
+  margin-left: 210px;
+  display: flex;
+  width: 900px;
+  height: 190px;
+  border:2px solid #3F3F3F;
+  border-radius: 5px;
+  background: #FBFBFB;
+
+}
+
+.upload-content{
+  float: left;
+  
+}
+.btn-group{
+  position: relative;
+  float:right;
+  margin-left: 1%;
+  margin-top: 6%;
+}
+
+/*popup for image resize */
+.container img{
+  border-radius: 5px;
+  border:1px solid grey;
+  cursor: pointer;
+}
+.popup-img{
+  position: fixed;
+  top:0; left: 0;
+  background: rgba(0,0,0,.9);
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  display: none;
+}
+.popup-img span{
+  position: absolute;
+  top: 0; right:100px;
+  font-size: 50px;
+  font-weight: bolder;
+  color:white;
+  cursor: pointer;
+  z-index: 100;
+}
+.popup-img img{
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  border:5px solid white;
+  border-radius: 5px;
+  width: 350px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px){
+  .popup-img img{
+    width: 95%;
+  }
+}
+/* The Modal (background) */
+.modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width:100%; /* Full width */
+  height:100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  font-family:  Arial,  sans-serif;
+
+ 
+}
+
+.open-modal-btn {
+    
+    margin-top: 10px;
+    height: 40px;
+    width: 130px;
+    font-size: 15px;
+    margin: auto auto;
+
+}
+
+/* Amuni gn dugang ko sa css sa modal */
+
+.subtitle {
+ 
+   
+    background: #272727;
+    padding-top: 5px;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 17px;
+    line-height: 40px;
+    font-family:  Arial,  sans-serif;
+}
+
+
+sub {
+
+font-size: 15px;
+  /*  */
+  font-style: italic;
+  margin-top: 0px;
+}
+
+#sub2 {
+
+font-size: 17px;
+margin-top: 10px;
+}
+
+#sub3 {
+
+font-size: 17px;
+margin-top: 0px;
+}
+
+
+#title {
+    height: 40px;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+/* end */
+
+
+/* Modal Content/Box */
+.modal-content1 {
+  border-radius: 15px;
+  background-color: white;
+  margin-top:40px;
+  margin-left:300px;
+  text-align: center;
+  padding:5px;
+  border: 5px solid grey;
+  width: 55%; /* Could be more or less, depending on screen size */
+  height: 90%;  
+}
+
+.h1 { text-align: center;
+
+        }
+h2 {
+    text-align: center;
+    font-weight: 10px;
+}
+
+/* The Close Button */
+.close {
+
+  color: #aaa;
+  float: right;
+  margin-right: 12px;
+  font-size: 30px;
+  font-weight: bold; 
+}
+
+
+.cancel {
+
+  float: right;
+  height: 40px;
+  width: 160px;
+  font-size: 15px;
+  border-radius: 15px;
+  border: 1px solid #373737;
+
+}
+.done {
+  color: black;
+  background-color: black;
+  float: right;
+  height: 40px;
+  width: 150px;
+  font-size: 15px;
+  border-radius: 15px;
+  border: 1px solid black;
+
+}
+
+
+.image-wrapper {
+    display:inline-block;
+    text-align: center;
+    margin: auto auto;
+    height: 350px;
+
+
+}
+
+.image-wrapper2 {
+    display:inline-block;
+    text-align: center;
+    margin: auto auto;
+     margin-top: 0px;
+     margin-left: 20px;
+     margin-right: 20px;
+    height: 88%;
+
+
+}
+
+
+/* Amuni gn dugang ko sa css sa modal */
+.terms {
+    height: 250px;
+    width: 80%;
+    padding: 10px; 
+    padding-left: 15px;    
+    padding-right: 25px;    
+    margin: auto;
+    font-size: 15px ;
+    overflow:auto;
+    text-align: left;
+    text-indent: 50px;
+ border: 1px solid #ededed;
+  
+}  
+
+
+h3 {
+    margin-top: 0px;
+}
+
+.flex-container {
+  display: flex;
+  height:  60px;
+  justify-content: space-between;
+  width: 81%;
+  margin: 10px;
+  margin-top: 10px;
+  margin: auto auto;
+  
+}
+
+.done, .embed-dct-btn, .btn btn-info1 {
+  color: white;
+  height: 40px;
+  width: 150px;
+  font-size: 14px;
+  background:#272727;
+  border-radius: 15px;
+  border-width: 1px;
+ 
+}
+
+.embed-dct-btn {
+    
+    position: absolute;
+    right: 440px;
+    bottom: 100px; 
+    
+
+}
+ /* end */
+
+.getOrigImg, .getWmLogo {
+       float:left; 
+       margin: auto auto;
+      padding-left: 10px;
+      width: 350px;
+        text-align: center;  
+        font-size: 20px;
+        padding-top: 0px;
+      
+}
+
+.orig {
+        margin: auto auto;
+        padding-top: 80px;
+        height: 250px;
+        width: 340px;
+        border:2px solid #3F3F3F;
+        margin-left: 20px;
+
+}
+
+.orig-uploaded {
+         margin: auto auto;       
+
+}
+
+.wmImg {
+         margin: auto auto;
+
+         
+}
+
+.extract-orig {
+     margin: auto auto;
+         padding-top: 100px;
+        height: 185px;
+        width: 340px;
+        border-style: dashed;
+ 
+
+}
+
+.getWmLogo2 {
+     height: 324px;
+   width: 340px;
+ border: 1px solid #888;
+}
+
+
+
+
+.upload {
+  text-align: center;
+  margin: auto auto;
+  font-size: 16px;
+
+}
+
+input[type=file] {
+    display:none;
+}
+
+input[type=submit] {
+  color:white;
+  border-radius: 20px;
+  border: 1px solid black; 
+  width: 200px;
+  padding: 8px 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background:#403E3E;
+;
+}
+
+.upload-image {
+
+  text-decoration: underline;
+  padding: 12px 12px;
+  margin: 4px 2px;
+
+  cursor: pointer;
+}
+
+
+
+ .wmProcess {
+    height: 80px;
+    width: 370px;
+  font-size: 25px;
+  margin: auto auto; 
+    margin-top: 10px;
+}
+
+
+.process  {
+    padding: 10px; 
+    height: 330px;
+    text-align: center;
+
+     display: block;
+  
+}
+
+.home-content1 {
+    display:inline;
+    margin: auto auto;
+    width: 60%;
+
+ 
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+
+}

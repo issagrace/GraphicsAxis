@@ -1,0 +1,16 @@
+body{
+	width: 100%;
+}
+
+.navbar-nav{
+	margin-left: 920px;
+	height: 35px;
+}
+
+.container{
+	max-width: 100%;
+}
+.navbar-brand{
+font-size: 27px;
+font-family: Monaco;
+}

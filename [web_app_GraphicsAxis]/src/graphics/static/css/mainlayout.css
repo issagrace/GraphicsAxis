@@ -1,0 +1,57 @@
+.cover-photo{
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+.content-section{
+	margin-top: 200px;
+	display: flex;
+	justify-content: center;
+}
+.user-info{ 
+	padding:2px; 				/* ACCOUNT INFO */
+	margin-left: 210px;
+	display: flex;
+	justify-content: center;
+	width: 900px;
+	height: 200px;
+	border:2px solid #3F3F3F;
+	border-radius: 5px;
+	background: #FBFBFB;
+}
+.rounded-circle account-img{	/* ACCOUNT IMAGE */
+	position: absolute;
+	position: center;
+	margin-top: 105px;
+}
+.form-group1{
+	justify-content: center;
+	float: left;
+}
+.form-group2{
+
+	justify-content: center;
+	margin-left: 10px;
+	float: right;
+}
+
+.account-info{
+	font-size: 10px;
+	text-align: center;
+	font-family: comic sans ms;
+}
+.form-control-label{
+	font-size: 20px;
+	font-family: comic sans ms;
+	margin-left: 80px;
+}
+.btnup{
+	border-radius: 20px;
+	width: 90px;
+	margin-left: 40px;
+}
+.form-control{
+	border-radius: 15px;
+	margin: 8px;
+	font-family: comic sans ms;
+}
